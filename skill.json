@@ -1,0 +1,11 @@
+{
+  "name": "genpark-agent-meeting-minutes-action-extractor-skill",
+  "version": "1.0.0",
+  "description": "Meeting transcript analyzer extracting consensus decisions and assigned action items",
+  "mcp": {
+    "server": "mcp_server.py",
+    "tools": [
+      "extract_meeting_minutes"
+    ]
+  }
+}
